@@ -1,35 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        div{
-            width:100%;
-            height: 100%;
-            background: #32a852;
-            position: absolute;
-            left: 0;
-            bottom: 0;
-        }
-        body{
-            font-family: arial;
-        }
-        .top{
-            display: inline-block;
-            transform: translate(10px, 20px);
-        }
-        .bottom{
-            display: inline-block;
-            transform: translate(10px, 45px);
-        }
-        img{
-            width: 100%;
-        }
-    </style>
+    <head>
+        <style>
+            body{
+                color: white;
+                background: #1f4ecf;
+                font-family: arial;
+            }
+            .img{
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .top-text{
+                transform: translate(10px, 370px);
+                font-size: 200%;
+            }
+            .bottom-text{
+                transform: translate(10px, 350px);
+                font-size: 100%;
+            }
+            a:hover,a:link,a:active,a:visited {
+                color: white;
+                text-decoration: none;
+            }
+        </style>
+    </head>
     <body>
-        <div>
-            <img src="https://assets.pokemon.com/assets/cms2-en-uk/img/watch-pokemon-tv/movies/movie22/movie22_ss01.jpg"> 
-            <span class="top" style="color: white; font-size: 150%"><b>Watch Pok&eacute;mon Movies</b></span>
-            <br>
-            <span class="bottom" style="color: white">Watch classic movies from <em>Pok&eacute;mon the First Movie</em> to <em>Pokemon: Mewtwo Strikes Back</em></span>
-        </div>
+        <a href="https://watchpokemontv.netlify.com/advanced.html">
+            <img class="img" width="100%" src="https://assets.pokemon.com/assets/cms2-en-uk/img/watch-pokemon-tv/_tiles/season06/ptv-season6-169.jpg">
+            <p class="top-text"><b>Get Advanced with <i>Pok&eacute;mon: Advanced</i></b></p>
+            <p class="bottom-text">Ash heads to the Hoenn region in <i>Pok&eacute;mon: Advanced</i>. The sixth season of <i>Pok&eacute;mon the Series</i> is now available on Pokémon TV</p>
+        </a>
     </body>
 </html>
